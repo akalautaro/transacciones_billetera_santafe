@@ -67,7 +67,7 @@ class Archivos:
             fecha_pago = t["fechaPago"][:16]   # 29/07/2021 12:54:22
             monto_bruto = round(t["montoBruto"], 2)
             monto_descuento = round(t["montoDescuento"], 2)
-            monto_final = monto_bruto + monto_descuento
+            monto_final = t["monto"]
             medio_pago = t["medioPagoNombre"]
             dni_cliente = (t["informacionPagador"]["numeroDocumento"]).zfill(8)
             nombre_cliente = t["informacionPagador"]["nombre"]

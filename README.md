@@ -23,11 +23,10 @@ Para ejecutar el script:
 * Automatizar script para que corra como servicio
 * Embellecer (?) archivo xlsx
 
+
 ## Contribuyendo 🖇️
 
 _Si querés contribuir con este proyecto, no dudes en hacer una ```pull request```. Todas las ideas y sugerencias son bienvenidas!_
 
 ---
-📱 En Twitter soy [akalautaro](www.twitter.com/akalautaro)
-
-💻 por [akalautaro](https://github.com/akalautaro)
+💻 En Twitter soy [akalautaro](www.twitter.com/akalautaro)

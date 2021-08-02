@@ -14,7 +14,7 @@ if __name__ == "__main__":
     parser.add_argument('--fecha_hasta', help='Fecha hasta la cual buscar movimientos',
                         default=datetime.today().strftime('%Y-%m-%d'))
     parser.add_argument('--suc', help='Nro de sucursal')
-    parser.add_argument('--caja', help='Nro de caja de la sucursal')
+    parser.add_argument('--caja', help='Nro de caja de la sucursal', default=0)
     parser.add_argument('--estado', help='Estado de la transacción', default=3)  # 3 es realizada
 
     args = parser.parse_args()

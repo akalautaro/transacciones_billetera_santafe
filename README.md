@@ -8,6 +8,7 @@ Porque el archivo que exporta la página de PlusPagos está formateado en su tot
 Y porque ganas de aprender 
 
 ### Ejecución
+##### _Importante:_ para llevar a cabo la ejecución es necesario contar con guid y frase, credenciales otorgadas por Plus Pagos para poder consumir su API.
 Para ejecutar el script:
 ~\billetera_santafe> python3 .\main.py --fecha_desde yyyy-mm-dd --fecha_hasta yyyy-mm-dd --suc 2 --estado 3
 * Las fechas son opcionales, sino toma la del día de la fecha
